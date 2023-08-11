@@ -27,7 +27,7 @@ echo "Follow me on GitHub: https://github.com/Joash-Jenushan?tab=repositories"
 underline "Run the Program"
 
 # Prompt user for network IP to scan
-read -p "Enter the network IP to scan (e.g., 192.168.1.0/24): " network_ip
+read -p "Enter the network IP to scan (e.g., 100.100.1.0/24): " network_ip
 
 # Run the scanning command
 sudo nmap -sn $network_ip -e eth0
