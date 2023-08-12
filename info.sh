@@ -10,12 +10,12 @@ echo -e "Using \033[;34mnetMap\033[0m will allow you to scan and find Devices on
 
 # Print the version details
 echo -e "\033[;34mnetMap\033[0m has two versions:"
-echo -e "    1. \033[;34mnetMap-V1.py\033[0m"
-echo -e "    2. \033[;34mnetMap-V2.py\033[0m"
+echo -e "    1. \033[;34mnetMap v1.0\033[0m"
+echo -e "    2. \033[;34mnetMap v2.1\033[0m"
 
 # Print version descriptions
-echo -e "\033[;34mnetMap-V1.py\033[0m is the default script, which will direct you to the scanning process."
-echo -e "\033[;34mnetMap-V2.py\033[0m is the same script, but when you run this as root, it'll scan for tools called 'adb' and 'scapy'. If they're available on your device, you will be directed to the scanning process. If they're not available, don't worry, \033[;34mnetMap\033[0m v2.0 will install the requirements for you."
+echo -e "\033[;34mnetMap v1.0\033[0m is the default script, which will direct you to the scanning process."
+echo -e "\033[;34mnetMap v2.1\033[0m is the same script, but when you run this as root, it'll scan for tools called 'adb' and 'scapy'. If they're available on your device, you will be directed to the scanning process. If they're not available, don't worry, \033[;34mnetMap\033[0m v2.1 will install the requirements for you."
 
 
 # Print disclaimer in red bold font
