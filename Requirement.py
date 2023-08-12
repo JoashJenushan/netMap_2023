@@ -9,8 +9,8 @@ def center_text(text):
     return padding + text
 
 def create_banner():
-    banner_text = "\033[1;34m" + pyfiglet.Figlet().renderText("netMap.py") + "\033[0m"
-    note_text = "\033[;34m netMap 1.0 Will Scan Your Network IP Address and Show You the Connected Devices IP Address and MAC Address.\033[0m"
+    banner_text = "\033[1;34m" + pyfiglet.Figlet().renderText("netMap V1.0") + "\033[0m"
+    note_text = "\033[;34m netMap V1.0 Will Scan Your Network IP Address and Show You the Connected Devices IP Address and MAC Address.\033[0m"
     creator_text = "\033[1;32mCreated by. Joash Jenushan\033[0m"
 
     print(center_text(banner_text))
