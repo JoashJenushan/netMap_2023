@@ -30,7 +30,7 @@ def main():
     check_and_install("scapy")
     check_and_install("adb")
     
-    program_file = "netMapV1.py"  # Replace with your program's filename
+    program_file = "Requirement.py"  # Replace with your program's filename
     
     run_another_program(program_file)
 
